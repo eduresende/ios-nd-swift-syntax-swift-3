@@ -61,6 +61,14 @@ for character in password.characters {
     }
 }
 
+
+// iterando pelos caracteres de uma String
+var name = "Eduardo"
+
+for character in name.characters {
+    print(character)
+}
+
 //: ### A String can be treated as an NSString
 let newPassword = password.replacingOccurrences(of: "e", with: "3")
 
