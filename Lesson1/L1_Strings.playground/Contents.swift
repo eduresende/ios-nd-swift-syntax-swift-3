@@ -69,6 +69,11 @@ for character in name.characters {
     print(character)
 }
 
+
+let newName = name
+    .replacingOccurrences(of: "u", with: "w")
+    .replacingOccurrences(of: "o", with: "")
+
 //: ### A String can be treated as an NSString
 let newPassword = password.replacingOccurrences(of: "e", with: "3")
 
