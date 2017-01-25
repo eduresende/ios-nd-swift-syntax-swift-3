@@ -15,6 +15,8 @@ let theTruth = "💰 can't buy me 💖."
 let theBaseballTeamInAtlanta = "Atlanta Braves"
 var jamesFavoriteBaseballTeam = "Atlanta Braves"
 
+
+// caracteres e unicode scalars
 var nWithTilde = "\u{006E}\u{0303}"
 nWithTilde.unicodeScalars.count
 nWithTilde.characters.count
